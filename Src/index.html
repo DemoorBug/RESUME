@@ -11,9 +11,13 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory (将favicon.ico放置在根目录中)-->
-
+  <!-- bootstrap -->
+  <!-- build:css css/combined.css -->
+  <link rel="stylesheet" href="public/libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mains.css">
+  <!-- endbuild -->
 </head>
 
 <body>
@@ -22,12 +26,86 @@
   <![endif]-->
 
   <!-- Add your site or application content here (在此添加您的网站或应用程序内容)-->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- 开始 -->
+  <div class="container-fluid">
+    <div class="row header-fluid">
+      <section class="section section-header container">
+        <div class="section-bg section-header-bg"></div>
+        <div class="section-bg section-content-bg"></div>
+        <div class="container">
+          <div class="col-md-4 header">
+            <div class="header-box">
+              <div class="avatar wow inShow no-print">
+                <img src="img/logo.jpg" alt="logo" class="img-responsive">
+              </div>
+              <h1 class="name text-center wow inShow no-print">源泉</h1>
+              <h1 class="name text-center hide show-print-block">王世霖</h1>
+            </div>
+          </div>
+          <div class="col-md-8 section-content">
+            <div class="content-box">
+              <div class="name-slogan">
+                <h2 data-wow-delay="0.1s" class="wow inShow no-print">
+                  <span class="text-light">王子宇</span>
+                </h2>
+                <div class="description wow inShow">追求专业与卓越前端开发者</div>
+              </div>
+              <div class="contact-info">
+                <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                    <h4>性别</h4>
+                    <div class="info">男</div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <h4>年龄</h4>
+                    <div class="info">26</div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <h4>学历</h4>
+                    <div class="info">专科</div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <h4>经验</h4>
+                    <div class="info">毕业工作1年</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                    <h4>电话</h4>
+                    <div class="info">18161975696</div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <h4>QQ</h4>
+                    <div class="info">465298643</div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <h4>Website</h4>
+                    <div class="info">http://696px.com</div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <h4>Github</h4>
+                    <div class="info">https://github.com/demoorbug</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="public/libs/jquery/dist/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
+  <!-- <script src="js/plugins.js"></script> -->
+  <script src="public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- build:js scripts/combined.js -->
   <script src="js/main.js"></script>
+  <!-- endbuild -->
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.(Google Analytics（分析）：将UA-XXXXX-Y更改为您网站的ID。) -->
   <script>

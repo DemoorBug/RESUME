@@ -1,0 +1,118 @@
+html {
+  font-size: 14px;
+}
+body {
+  font-size: 1rem;
+  font-family: microsoft yahei, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #979899;
+}
+.header-fluid {
+  position: relative;
+}
+.section:nth-child(2n) .header,
+.section:nth-child(2n) .section-header-bg {
+  background: #292a2a;
+}
+.section:nth-child(2n) .section-content,
+.section:nth-child(2n) .section-content-bg {
+  background: #2b2c2c;
+  box-shadow: 10px 10px 5px #888888;
+}
+.section-header .header,
+.section-header .section-content {
+  height: 100vh;
+}
+.section .header .header-box {
+  position: relative;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.section-header .avatar {
+  border-radius: 20rem;
+  max-width: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.section-header .name {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.section .section-content .content-box {
+  position: relative;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.section .section-content {
+  padding: 4rem 3rem 4rem 5rem;
+  background: #292a2a;
+  z-index: 2;
+}
+.section .header {
+  padding: 4rem 5rem;
+  z-index: 2;
+  background: #2b2c2c;
+  text-align: right;
+}
+.section-bg {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+}
+.section-header-bg {
+  background: #2b2c2c;
+  left: 0;
+}
+.section-content-bg {
+  background: #292a2a;
+  left: 50%;
+}
+.text-light {
+  color: #e0a80d;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 200;
+  margin: 0 0 1rem;
+}
+.section-header .description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.section-header .contact-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.section-header .name-slogan {
+  position: relative;
+  top: -2rem;
+}
+.section-header .contact-info > div:first-child {
+  border-bottom: 2px dashed #404242;
+  padding-bottom: 1rem;
+}
+.section-header .contact-info h4 {
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  font-weight: 700;
+}
+.section-header address {
+  font-style: normal;
+  line-height: 1rem;
+}
+
+/*# sourceMappingURL=./map/mains.css.map */

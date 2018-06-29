@@ -1,12 +1,12 @@
 {
-  "name": "Template",
-  "description": "",
-  "main": "index.js",
+  "name": "Src",
+  "homepage": "https://github.com/DemoorBug/RESUME",
   "authors": [
     "DemoorBug <demoorbug@gmail.com>"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/DemoorBug/Template",
+  "description": "",
+  "main": "",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
