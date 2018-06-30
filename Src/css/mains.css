@@ -9,14 +9,13 @@ body {
 .header-fluid {
   position: relative;
 }
-.section:nth-child(2n) .header,
-.section:nth-child(2n) .section-header-bg {
+.background-section:nth-child(2n) .header,
+.background-section:nth-child(2n) .section-header-bg {
   background: #292a2a;
 }
-.section:nth-child(2n) .section-content,
-.section:nth-child(2n) .section-content-bg {
+.background-section:nth-child(2n) .section-content,
+.background-section:nth-child(2n) .section-content-bg {
   background: #2b2c2c;
-  box-shadow: 10px 10px 5px #888888;
 }
 .section-header .header,
 .section-header .section-content {
@@ -60,7 +59,7 @@ body {
   z-index: 2;
 }
 .section .header {
-  padding: 4rem 5rem;
+  padding: 4rem 2rem;
   z-index: 2;
   background: #2b2c2c;
   text-align: right;
@@ -87,11 +86,11 @@ h2 {
   font-weight: 200;
   margin: 0 0 1rem;
 }
-.section-header .description {
+.section-headehaderr .description {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
-.section-header .contact-info {
+.section-header .contact-infos {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -101,11 +100,11 @@ h2 {
   position: relative;
   top: -2rem;
 }
-.section-header .contact-info > div:first-child {
+.section-header .contact-infos > div:first-child {
   border-bottom: 2px dashed #404242;
   padding-bottom: 1rem;
 }
-.section-header .contact-info h4 {
+.section-header .contact-infos h4 {
   font-size: 1rem;
   margin: 1.5rem 0;
   font-weight: 700;
@@ -113,6 +112,62 @@ h2 {
 .section-header address {
   font-style: normal;
   line-height: 1rem;
+}
+.section .header .title {
+  font-size: 1.5rem;
+}
+.section .header .title small {
+  font-size: 1rem;
+}
+.section .section-content .intro p {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+.progress .progress-bar {
+  background: #e0a80d;
+}
+.progress {
+  background: #404242;
+  height: 5px;
+  border-radius: 0;
+}
+.skill .text-infos {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.skill .num {
+  display: inline-block;
+  margin-right: 1rem;
+}
+/* a */
+.usually .item {
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  display: inline-block;
+}
+.section a,
+.section a:hover {
+  text-decoration: none;
+}
+.section a {
+  color: #979899;
+}
+.usually .item h3 {
+  margin-top: .5rem;
+  margin-bottom: .8rem;
+  line-height: 1rem;
+  font-size: 1.17rem;
+  font-weight: 700;
+}
+.contact {
+  margin-bottom: 2rem;
+}
+.contact h4 {
+  margin-top: .3rem;
+  margin-bottom: .8rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=./map/mains.css.map */
