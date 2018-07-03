@@ -27,7 +27,6 @@ body {
     flex-direction: column;
 }
 .section-header .avatar {
-    border-radius: 20rem;
     max-width: 200px;
     margin: 0 auto;
     overflow: hidden;
@@ -165,4 +164,30 @@ h2 {
     margin-bottom: .8rem;
     font-weight: bold;
     font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+.section .header, .section .section-content {
+    padding: 15px;
+}
+
+.section-header .name-slogan {
+    top: 0;
+}
+.section-header .contact-infos {
+    position: relative;
+}
+ .section-header .section-content {
+    height: auto;
+}
+.background-section:nth-child(2n) .header, .background-section:nth-child(2n) .section-header-bg {
+    background: #2b2c2c;
+}
+.background-section:nth-child(2n) .section-content, .background-section:nth-child(2n) .section-content-bg {
+    background: #292a2a;
+}
+.section .header {
+    text-align: left;
+}
 }
