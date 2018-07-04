@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body class="overflow-hidden">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -347,7 +347,7 @@
 <script type="text/javascript">
     // 等待所有加载
     $(window).on('load',function(){
-        // $('body').addClass('loaded');
+        $('body').removeClass('overflow-hidden');
         $('.loader').remove();
     });
 </script>
